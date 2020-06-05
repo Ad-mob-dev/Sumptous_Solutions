@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact us</title>
+
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- animation css -->
+    <link rel="stylesheet" href="animate-css/animate.css">
+    <!-- own animation css -->
+    <link rel="stylesheet" href="css/animat.css">
+    <!-- main css -->
+    <link rel="stylesheet" href="css/main.css">
+    <!-- contact css -->
+    <link rel="stylesheet" href="css/contact.css">
+    <!-- font Awesome  -->
+    <link rel="stylesheet" type="text/css" href="fontawesome/css/all.css">
+    <!-- js for sound -->
+    <script defer src="App.js"></script>
+</head>
+
+<body>
+    <!-- header containing nav -->
+    <header>
+        <audio id="sharp" src="../sounds/sharp.mp3"></audio>
+        <audio id="social" src="../sounds/social.mp3"></audio>
+      <!-- menu -->
+      <section class="container-fluid fixed-top" style="background-color: #212121 !important; opacity: 0.9;">
+        <nav class="navbar navbar-expand-lg navbar-dark" id="navbar" style=" color: white; background-color:#212121;">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+</button>
+            <i class="fa fa-heartbeat fa-2x nav-brand" style=" color: #F50057;" aria-hidden="true" onmouseover="playSound('sharp')"></i>
+            <a class="navbar-brand" id="navbra" href="#" style="margin-right:auto; margin-left: 0px; font-size: 18px !important;" onmouseover="playSound('sharp')">
+                &nbsp;
+                Sumptous Solutions</a>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                <ul class="navbar-nav mt-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="team.html"> Our Team</a>
+
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="services.html">Services</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html"> About us</a>
+
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active badge-pill btn-outline-primary font-weight-bold" href="contact.html">Contact us</a>
+                    </li>
+
+
+                    <div class="idiv" style="margin-left:auto !important; margin-right: auto !important; ">
+                        <a class="iconanchor" href="#"><i class="fab fa-facebook-f" style="color: white;"
+                                onmouseover="playSound( 'social') "></i></a>
+                        <a class="iconanchor " href="# "><i class="fab fa-linkedin-in" style="color: white;"
+                                onmouseover="playSound( 'social') "></i></a>
+                        <a class="iconanchor " href="# "><i class="fab fa-twitter" style="color: white;"
+                                onmouseover="playSound( 'social') "></i></a>
+                        <a class="iconanchor " href="# "><i class="fab fa-instagram" style="color: white;"
+                                onmouseover="playSound( 'social') "></i></a>
+                        <a class="iconanchor " href="# "><i class="fab fa-github" style="color: white;"
+                                onmouseover="playSound( 'social') "></i></a>
+                    </div>
+
+                </ul>
+
+
+            </div>
+        </nav>
+    </section>
+    </header>
+
+    <!-- main body -->
+    <main>
+        <!-- banner  -->
+        <section class=" breadsec ">
+            <div class=" bread container-fluid ">
+                <h3 class=" container-fluid " align=" center ">CONTACT US</h3>
+                <hr width=" 10% " style=" height: 2px; ">
+            </div>
+        </section>
+
+
+
+        <!-- contact us -->
+        <section class="container m-auto  contactsection  text-black border border-white">
+            <div class="row">
+
+                <div class=" col-lg-6 col-md-6 col-sm-6 border border-white">
+                    <h1 class="badge badge-pill badge-primary mt-4" style="font-size: 25px;">Visit Us </h1>
+                    <hr class=" wwdhr ">
+                    <label>
+                        <b> REGISTERED OFFICE:</b>
+                        <p>
+                    </label>Office: A3 Kings Trade Center block-3 Karachi</p>
+
+                    <label>
+                        <b> BUSINESS ADDRESS:</b>
+                        <p>
+                    </label> Office: C2 PIA Housing Society Gulistan-e-Jauhar block-12</p>
+                    <label>
+                        <b> BRANCH ADDRESS:</b>
+                        <p>
+                    </label>A51, 3rd Floor, Auto Bahn Road, Hyderabad</p>
+                   
+                   
+                    <label>
+                        <b> Phone:</b>
+                        <p>
+                    </label> +92 335 3150795, +92342-3190442</p>
+                    
+                    <label>
+                        <b> Email:</b>
+                        <p>
+                    </label> info@sumptoussolutions.com, support@sumptoussolutions.com</p>
+                     
+                    <label>
+                        <b> Timings:</b>
+                        <p>
+                    </label>Monday – Friday 9 AM – 6 PM</p>
+
+
+                </div>
+
+
+                <div class="col-lg-6 col-md-6 col-sm-6 mb-2 border border-white">
+                 <h1 class="badge badge-pill badge-primary mt-4 fadeIn" style="font-size: 25px;">Get in Touch </h1>
+                 <hr class=" wwdhr">
+                 <h1 class="mb-2">Leave a Message</h1>
+    
+                 <form action="" method="post" class="form-inline">
+                   
+                     <input  class="form-control mb-4"  required type="text" name="name" autofocus autocomplete="true" spellcheck="true" id="name" aria-label="Name" placeholder="Name">
+                     <input class="form-control mb-4"  required type="email" name="email" autocomplete="true" id="email" aria-label="email" placeholder="Email">
+                   
+                     <input type="tel" name="phone" id="phone"   required class="w-100 form-control mb-4" placeholder="Phone">
+                     <textarea  required class="form-control mb-4" wrap="soft"  name="message"  spellcheck="true" id="message" aria-label="Message" placeholder="Message" rows="5" cols="100"></textarea>
+
+                     <input type="submit" value="Send Message" class="btn btn-primary font-weight-bold">
+                 </form>
+
+
+
+
+                </div>
+
+
+
+            </div>
+
+
+
+        </section>
+
+
+<!-- 24/7 Support -->
+<section class=" container-fluid supportsection text-black  border  border-white ">
+  
+ <div class="col-md-12 text-black mt-3">
+    <h1 class="text-center text-black">24X7 SUPPORT</h1>
+   <p class="text-center" >
+    Need assistance with your product? We’ll get you the help you need.</p>
+ </div>
+<div class="row">
+
+<div class="col-md-4 text-center p-2 border  mb-3  border-white">
+<i class="fab fa-facebook-messenger fa-5x text-primary mt-3"></i>
+<br>
+<button class="btn btn-outline-primary mt-3 badge-pill mb-3" ><a href="www.facebook.com" class="text-decoration-none text-primary font-weight-bold sp">Contact us on Messanger</a></button>
+
+</div>
+<div class="col-md-4 p-2 text-center border  border-white ">
+    <i class="fab fa-whatsapp fa-5x text-success mt-3"></i>
+  <br>
+    <button class="btn btn-outline-success mt-3 mb-3 badge-pill" ><a href="www.facebook.com" class="text-decoration-none text-success font-weight-bold sp">Contact us on WhatsApp</a></button>
+
+</div>
+<div class="col-md-4  p-2  text-center border  border-white">
+    <i class="fab fa-skype fa-5x text-primary mt-3"></i>
+  <br>
+    <button class="btn btn-outline-primary mt-3 mb-3 badge-pill" ><a href="www.facebook.com" class="text-decoration-none text-primary font-weight-bold sp">Contact us on Skype</a></button>
+</div>
+
+
+</div>
+
+
+</section>
+<!-- google Map -->
+
+   
+        <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1LQfqL1oDA_ee6m_SskyPoHu1jXirN8zy"  width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+ 
+
+
+
+<!-- my map -->
+
+    </main>
+    <!-- footer -->
+    <footer class="page-footer container-fluid f">
+     
+        <div class="row container-fluid animate__animated fadeIn">
+            <div class="col-md-4 f1 animate__animated fadeInLeft">
+                <!-- inner f1 -->
+
+                    <h3 >About us</h3>
+                    <hr>
+                    <i class=" fa fa-heartbeat fa-5x" style=" color: #F50057; " aria-hidden=" true " onmouseover=" playSound( 'sharp' ) "></i>
+                    <br>
+                    <span>
+                        <p class="p-3">Sumptous Solutions is the Software Development Company in Pakistan having the
+                            specialists
+                            for
+                            creating the compelling and highly interactive websites & Softwares. Using
+                            our
+                            powerful
+                            strategies we have created
+                            some amazing websites & Softwares for our customers and have helped them to
+                            market
+                            their
+                            business properly.</p>
+                    </span>
+           
+
+            </div>
+            <div class="col-md-4 f2 animate__animated fadeInUp" >
+              
+                    <h3>Our Services</h3>
+                    <hr>
+
+                    <ul>
+                        <li>
+                            <p><i class=" fa fa-check "></i> Graphic Designing</p>
+                        </li>
+                        <li>
+                            <p><i class=" fa fa-check "></i> Logo Designing </p>
+                        </li>
+                        <li>
+                            <p><i class=" fa fa-check "></i> Content Writing </p>
+                        </li>
+                        <li>
+                            <p><i class=" fa fa-check "></i> Website/Software Design</p>
+                        </li>
+                        <li>
+                            <p><i class=" fa fa-check "></i> wordpress Web-Development </p>
+                        </li>
+                        <li>
+                            <p><i class=" fa fa-check "></i> E-commerce Web-Development </p>
+                        </li>
+                        <li>
+                            <p><i class=" fa fa-check "></i> Android/IoS App-Development </p>
+                        </li>
+                        <li>
+                            <p><i class=" fa fa-check "></i> Website/Software Development </p>
+                        </li>
+                    </ul>
+               </div>
+               <div class=" col-md-4 f3 animate__animated fadeInRight">
+                    
+                <h3>Contact Details</h3>
+                <hr>
+                <p> 
+                    Office: A3 Kings Trade Center block-3 Karachi </p>
+                <p> <b>Timing :</b> Mon-Sat, 10:00am to 6:00pm</p>                      
+                <p><b>Email:</b> info@sumptoussolutions.com
+                </p>                   
+                <p><b>Phone:</b> +92-335-3150795</p>
+
+                <div class="inner_f3_icon"><a href=" "><i class=" fab fa-facebook-f "></i></a>
+                    <a href=" "><i class=" fab fa-linkedin-in " onmouseover=" playSound( 'social' ) "></i></a>
+                    <a href=" "><i class=" fab fa-twitter " onmouseover=" playSound( 'social' ) "></i></a>
+                    <a href=" "><i class=" fab fa-whatsapp " onmouseover=" playSound( 'social' ) "></i></a>
+                    <a href=" "><i class=" fab fa-github " onmouseover=" playSound( 'social' ) "></i></a>
+                </div>
+        
+        </div>
+        </div>
+        <div class="row">
+            <div class=" col-md-12 footer_credit animate__animated fadeIn ">
+                <strong> Copyright © 2020 Sumptous Solutions </strong>
+            </div>
+        </div>
+
+</footer>
+
+
+       <!-- Jquery.js -->
+       <script defer src=" css/jquery.slim.min.js "></script>
+       <!-- popper.js -->
+       <script defer src=" node_modules/@popperjs/core/dist/umd/popper.js "></script>
+       <!-- bootstrap.js -->
+       <script defer src=" css/bootstrap.min.js "></script>
+   
+</body>
+
+
+</html>
+

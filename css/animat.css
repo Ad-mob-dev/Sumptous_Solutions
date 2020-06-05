@@ -1,0 +1,98 @@
+@keyframes example {
+    from {
+        background-color: white;
+        color: #212121;
+        border-color: black;
+        opacity: 1;
+        border-style: dashed;
+    }
+    to {
+        background-color: #F50057;
+        color: white;
+        border-color: white;
+        border-style: dashed;
+        opacity: 1;
+    }
+    0% {
+        transform: rotate(0deg);
+    }
+    50% {
+        transform: rotate(-360deg);
+    }
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
+@keyframes blink {
+    0% {
+        opacity: 1;
+        transform: scale(1.0);
+        transition: all;
+    }
+    50% {
+        opacity: 0;
+        transform: scale(0.5);
+        transition: all;
+    }
+    100% {
+        opacity: 1;
+        transform-style: preserve-3d;
+        transform: scale(1.0);
+        transition: all;
+    }
+}
+
+@keyframes color {
+    0% {
+        background: linear-gradient(to right, rgba(255, 120, 16, 1) 0, rgba(255, 21, 106, 1) 25%, rgba(255, 94, 44, 1) 50%, rgba(187, 13, 76, 1) 75%, rgba(69, 204, 137, 1) 100%);
+        background-image: linear-gradient(to right, rgb(255, 120, 16) 0px, rgb(255, 21, 106) 25%, rgb(255, 94, 44) 50%, rgb(187, 13, 76) 75%, rgb(69, 204, 137) 100%);
+        transform: rotate(0deg) scale(0, 1);
+    }
+    50% {
+        background: linear-gradient(to right, rgba(255, 120, 16, 1) 0, rgba(255, 21, 106, 1) 25%, rgba(255, 94, 44, 1) 50%, rgba(187, 13, 76, 1) 75%, rgba(69, 204, 137, 1) 100%);
+        background-image: linear-gradient(to right, rgb(255, 120, 16) 0px, rgb(255, 21, 106) 25%, rgb(255, 94, 44) 50%, rgb(187, 13, 76) 75%, rgb(69, 204, 137) 100%);
+        transform: rotate(0deg) scale(1, 1);
+    }
+    100% {
+        background: linear-gradient(to right, rgba(255, 120, 16, 1) 0, rgba(255, 21, 106, 1) 25%, rgba(255, 94, 44, 1) 50%, rgba(187, 13, 76, 1) 75%, rgba(69, 204, 137, 1) 100%);
+        background-image: linear-gradient(to right, rgb(255, 120, 16) 0px, rgb(255, 21, 106) 25%, rgb(255, 94, 44) 50%, rgb(187, 13, 76) 75%, rgb(69, 204, 137) 100%);
+        transform: rotate(0deg) scale(1, 1);
+    }
+}
+
+@keyframes animatedBackground {
+    from {
+        background-position: 0 0;
+    }
+    to {
+        background-position: 100% 0;
+    }
+}
+
+@keyframes float {
+    40% {
+        transform: translate(0px, 20px);
+    }
+    80% {
+        transform: translate(20px, 0px);
+    }
+}
+
+@keyframes fcolor {
+    0% {
+        color: rgba(255, 21, 106, 1);
+    }
+    30% {
+        color: purple;
+    }
+    50% {
+        color: tomato;
+    }
+    80% {
+        color: rgba(255, 120, 16, 1);
+    }
+    100% {
+        color: black;
+    }
+}

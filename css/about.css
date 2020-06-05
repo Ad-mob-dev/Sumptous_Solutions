@@ -1,0 +1,76 @@
+.bread>h3 {
+    padding-top: 160px;
+    font-size: 30px;
+    letter-spacing: 10px;
+    font-weight: bold;
+}
+
+.bread>hr {
+    animation: color 1s infinite linear;
+    width: 10%;
+    height: 2px;
+}
+
+.bread {
+    height: 300px;
+    background-image: url('../images/animimg/bread.png');
+    background-size: auto;
+    color: white;
+    background-repeat: no-repeat;
+    animation: animatedBackground 15s infinite linear;
+    opacity: 1;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.breadsec {
+    height: 300px;
+    background-image: url('../images/bgrounds/headerimgs/abtus.webp');
+    background-repeat: repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: scroll;
+}
+
+
+/* what we do horizontal line */
+
+.wwdhr {
+    animation: color 1s infinite linear;
+    width: 100%;
+    height: 2px;
+}
+
+
+/* what we do about us badge heading */
+
+.badge {
+    font-size: 28px;
+    font-weight: bold;
+    width: 100%;
+}
+
+.wwd h2 {
+    letter-spacing: 3px;
+  
+}
+
+.wwd h1{
+    font-size: 28px;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+
+/* what we do about paragraph */
+
+.wwd p {
+    font-size: 18px;
+
+    text-align: justify;
+}
+
+.badge:hover{
+    animation: color 1s infinite;
+    width: 100%;
+    height: 40px;
+
+}
